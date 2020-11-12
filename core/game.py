@@ -51,6 +51,6 @@ while running:
     Env0.blit_elements(elements_list)
     screen.fill((0,0,0))
     screen.blit(Env0.surface, (DELTA_X, DELTA_Y))
-    screen.blit(P1.sprite1)
+    screen.blit(P1.sprite1, (30, 30))
     pygame.display.update()
     
